@@ -854,17 +854,17 @@ body {
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
-      }
-
-      .features .image-wrapper img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-          margin: 0 auto;
-          width: 100%;
     }
-    
-     @media only screen and (min-width: 768px) {
+
+    .features .image-wrapper img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) {
         .features .image-wrapper {
             max-width: 700px;
         }
@@ -963,11 +963,13 @@ body {
         max-width: 630px;
         margin-left: auto;
         margin-right: auto;
-        font-family: inherit; /* 继承父元素的字体 */
+        font-family: inherit;
+        /* 继承父元素的字体 */
     }
-    
+
     .features-intro ol li {
-        font-family: inherit; /* 继承父元素的字体 */
+        font-family: inherit;
+        /* 继承父元素的字体 */
         font-size: 14px;
         font-weight: 500;
         line-height: 1.4;
@@ -1344,64 +1346,64 @@ body {
     .pricing-section .table-right:hover {
         box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
         -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s;
-      }
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
 
-      .pricing-section .table-left,
-      .pricing-section .table-right {
-          margin-top: 20px;
-      }
+    .pricing-section .table-left,
+    .pricing-section .table-right {
+        margin-top: 20px;
+    }
 
-      .pricing-section .table-center {
-          margin-top: 0;
-      }
+    .pricing-section .table-center {
+        margin-top: 0;
+    }
 
-      .pricing-details .btn-group {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-      }
+    .pricing-details .btn-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-      .pricing-details .btn-action,
-      .pricing-details .btn-android {
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
-          width: auto;
-          min-width: 180px;
-          height: 44px;
-          padding: 0 25px;
-          font-family: 'Montserrat', sans-serif;
-          font-size: 14px;
-          font-weight: 500;
-          border-radius: 5px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          line-height: 1;
-      }
+    .pricing-details .btn-action,
+    .pricing-details .btn-android {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        min-width: 180px;
+        height: 44px;
+        padding: 0 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        line-height: 1;
+    }
 
-      .pricing-details .btn-android {
-          background-color: #3DDC84;
-          color: #fff;
-          border: none;
-      }
+    .pricing-details .btn-android {
+        background-color: #3DDC84;
+        color: #fff;
+        border: none;
+    }
 
-      .pricing-details .btn-android:hover {
-          background-color: #32b06e;
-          box-shadow: 0 5px 15px rgba(61, 220, 132, 0.4);
-      }
+    .pricing-details .btn-android:hover {
+        background-color: #32b06e;
+        box-shadow: 0 5px 15px rgba(61, 220, 132, 0.4);
+    }
 
-      .pricing-details .btn-ios {
-          margin-bottom: 0;
-      }
+    .pricing-details .btn-ios {
+        margin-bottom: 0;
+    }
 
-      .table-right .pricing-details ul {
-          margin-bottom: 30px;
-      }
-      
+    .table-right .pricing-details ul {
+        margin-bottom: 30px;
+    }
+
     /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
@@ -1505,14 +1507,19 @@ body {
         text-align: left;
     }
 
-    .review-text h1, .review-attribution h2, .review-attribution h6 {
+    .review-text h1,
+    .review-attribution h2,
+    .review-attribution h6 {
         cursor: pointer;
-      }
-      
-      /* 可选：添加悬停效果 */
-      .review-text h1:hover, .review-attribution h2:hover, .review-attribution h6:hover {
-        color: #0056b3; /* 或者你喜欢的颜色 */
-      }
+    }
+
+    /* 可选：添加悬停效果 */
+    .review-text h1:hover,
+    .review-attribution h2:hover,
+    .review-attribution h6:hover {
+        color: #0056b3;
+        /* 或者你喜欢的颜色 */
+    }
 
     .yd-reviews .card-single .review-attribution {
         -webkit-box-flex: 1;
@@ -1598,11 +1605,12 @@ body {
     .review-img img {
         cursor: pointer;
         transition: transform 0.2s;
-      }
-      
-      .review-img img:hover {
-        transform: scale(1.1); /* 鼠标悬停时略微放大图片 */
-      }
+    }
+
+    .review-img img:hover {
+        transform: scale(1.1);
+        /* 鼠标悬停时略微放大图片 */
+    }
 
 
     /*-------------------------------------------------------
@@ -2104,52 +2112,52 @@ body {
     }
 
     /* 视频弹窗样式 */
-.modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    width: 80%;
-    max-width: 900px;
-    position: relative;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: -40px;
-    right: 0;
-    font-size: 24px;
-    color: white;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 8px;
-    z-index: 1001;
-  }
-  
-  .video-wrapper {
-    width: 100%;
-  }
-  
-  #bili-player {
-    width: 100%;
-    border: none;
-    background-color: #000;
-  }
-  
-  /* 移动端适配 */
-  @media (max-width: 767px) {
-    .modal-content {
-      width: 95%;
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
     }
-  }
+
+    .modal-content {
+        width: 80%;
+        max-width: 900px;
+        position: relative;
+    }
+
+    .close-button {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        font-size: 24px;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        z-index: 1001;
+    }
+
+    .video-wrapper {
+        width: 100%;
+    }
+
+    #bili-player {
+        width: 100%;
+        border: none;
+        background-color: #000;
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 767px) {
+        .modal-content {
+            width: 95%;
+        }
+    }
 }
